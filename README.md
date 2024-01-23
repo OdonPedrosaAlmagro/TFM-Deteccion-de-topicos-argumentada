@@ -1,6 +1,29 @@
 # TFM-Deteccion-de-topicos-argumentada
 
-Este repositorio contiene un conjunto de herramientas y servicios para analizar y explorar temas en subreddits de Reddit. La aplicación utiliza FastAPI para la creación de una API web que permite realizar búsquedas en subreddits específicos y obtener noticias relacionadas con los temas identificados. Además, se incluyen funcionalidades para visualizar resultados y obtener explicaciones generadas automáticamente sobre los temas.
+Este repositorio contiene un conjunto de herramientas y servicios para la detección y exploración de temas en subreddits de Reddit. La aplicación se centra en la identificación de tópicos relevantes e interesantes en redes sociales, específicamente en Reddit. No solo detecta los tópicos, sino que también proporciona explicaciones sólidas de por qué un tópico se considera de interés.
+
+## Funcionalidades clave
+
+### 1. Detección de Tópicos:
+
+* Utiliza algoritmos de procesamiento de lenguaje natural y aprendizaje automático para identificar tópicos en subreddits específicos.
+* Genera representaciones visuales de los tópicos identificados.
+
+### 2. Recuperación de Información:
+
+* Obtiene noticias relacionadas con los tópicos identificados utilizando servicios externos.
+* Explora y analiza las noticias para extraer información relevante.
+
+### 3. Generación de Explicaciones:
+
+* Utiliza inteligencia artificial para generar explicaciones coherentes sobre por qué un tópico se ha detectado como de interés.
+* Integra información de noticias relacionadas en la generación de explicaciones.
+
+### 4. Visualización de Resultados:
+
+* Ofrece visualizaciones interactivas, incluido un mapa de calor de las noticias relacionadas.
+* Facilita la comprensión y exploración de los resultados obtenidos.
+
 
 ## Requisitos
 Antes de ejecutar la aplicación, asegúrese de tener las siguientes bibliotecas instaladas en su entorno de Python:
